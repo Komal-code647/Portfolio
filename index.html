@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+            <img src="logo6.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+
+        </ul>
+        </nav>
+        <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I am <span>Komal</span></h1>
+        </div>
+       </div>
+    </div>
+    <!-- -------about section-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="developer-with-ai-generated-free-png.webp">
+                </div>
+                <div class="column2">
+                <h1 class="heading">About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate porro deserunt consequuntur ad error animi nisi dolorem molestias ut, sapiente magni quaerat doloremque quasi labore officia sint magnam modi! Laboriosam, provident odit.</p>
+            <div class="title-links">
+            <p class="titles active" onclick="opentab('skills')">Skills</p>
+            <p class="titles" onclick="opentab('experience')">Experience</p>
+            <p class="titles" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="title-contents active-contents" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Websites</li>
+                        <li><span>Graphic Designing</span><br>Designing Graphics and logos</li>
+                        <li><span>Coding</span><br>Programming languages like C,C++,Python</li>
+                    </ul>
+                </div>
+                <div class="title-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Web Developement Internship at CodSoft</li>
+                        <li><span>2024</span><br>Contested B-Plan event at E-summit in IIT Bhubaneswar</li>
+                    </ul>
+                </div>
+                <div class="title-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026</span><br>IIIT Bhubabeswar</li>
+                        <li><span>2020-2022</span><br>Sri Chaitanya Vidyanikethan</li>
+                        <li><span>2020</span><br>St Joseph's School</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services section----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="serviceslist">
+                <div>
+                    <h2>Web Developement</h2>
+                    <p>It combines technical skills, programming languages, and design elements to develop functional and visually appealing online platforms. Web development services can range from simple static websites to complex dynamic web applications with extensive functionalities.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>App Development</h2>
+                    <p>Application development is the process of making software for smartphones, tablets and digital assistants, most commonly for the Android and iOS operating systems. The software can be preinstalled on the device, downloaded from a mobile app store or accessed through a mobile web browser.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>UI design involves the look of a product — namely, the visual components and interactive elements that contribute to a strong user experience. Meanwhile, UX design focuses on the overarching feel of the product or service and the components that will lead to a meaningful, relevant experience for users.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- -------------Portfolio Section------------- -->
+ <div id="portfolio">
+            
+            <div class="container">
+                <h1 class="subtitle">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="work1.jpeg">
+                        <div class="layer">
+                            <h3>
+                              Social Media App  
+                            </h3>
+                            <p>
+                                The app connects you to the outside world. You can install it on playstore
+                            </p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work2.jpeg">
+                        <div class="layer">
+                            <h3>
+                             Music App  
+                            </h3>
+                            <p>
+                                The app connects you to the outside world. You can install it on playstore
+                            </p>
+                            <a href="#"></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="work3.jpeg">
+                        <div class="layer">
+                            <h3>
+                            Online Shopping App  
+                            </h3>
+                            <p>
+                                The app connects you to the outside world. You can install it on playstore
+                            </p>
+                            <a href="#"></a>
+                    </div>
+                </div>
+    </div>
+     <a href="#" class="buttn">See more</a>
+ </div>
+<!-- 
+ ----------Contact section---------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactl">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>contact@myemail.com</p>
+                <p>9545678321</p>
+                <div class="socialicons"></div>
+            <a href="#" class="buttn buttn2">Download CV</a>
+            </div>
+            <div class="contactr">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="buttn buttn2" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copy"><p>Copyright &#169 Komal.Made by Komal</p></div>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
