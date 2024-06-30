@@ -1,5 +1,5 @@
- var titles=document.getElementsByClassName("titles");
-        var titlecontents=document.getElementsByClassName("title-contents");
+    var titles=document.getElementsByClassName("titles");
+    var titlecontents=document.getElementsByClassName("title-contents");
 
         function opentab(titlename){
             for(title of titles){
