@@ -4,6 +4,9 @@
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: black;
     color: white;
@@ -295,6 +298,9 @@ form .btn2{
     margin-top: 20px;
 }
 /* ---------CSS  for responsive design-------- */
+nav .fa-solid{
+    display: none;
+}
 @media only screen and (max-width:600px){
     #header{
         background-image: url(Bimage.png);
@@ -305,5 +311,53 @@ form .btn2{
     }
     .header-text h1{
         font-size: 30px;
+
+    }
+    nav .fa-solid{
+        display: block;
+        font: 25px;
+    }
+    nav ul{
+        background:#ff004f;
+        position: fixed;
+        top:0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s ;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .heading{
+        font-size: 40px;
+    }
+    .column1,.column2{
+        flex-basis: 100%;
+    }
+    .column1{
+        margin-bottom: 20px;
+    }
+    .column2{
+        font-size:15px;
+    }
+    .titles{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .contactl,.contactr{
+        flex-basis:100;
+    }
+    .copy{
+        font-size: 13px;
     }
 } 
